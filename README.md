@@ -1,4 +1,4 @@
-Contexto:Add commentMore actions
+Contexto:
 Análise de Arboviroses Urbanas em Recife (2024)
 
 As arboviroses urbanas, especialmente dengue, chikungunya e zika, constituem um sério desafio para a saúde pública no Brasil, com elevados níveis de ocorrência, episódios recorrentes e efeitos relevantes na população e nos serviços de saúde.
