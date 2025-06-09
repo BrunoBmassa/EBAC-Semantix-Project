@@ -1,109 +1,73 @@
-Contexto:
+Análise de Arboviroses Urbanas em Recife (2024)
 
-As arboviroses urbanas, especialmente dengue, chikungunya e zika, constituem um sério desafio para a saúde pública no Brasil, com elevados níveis de ocorrência, episódios recorrentes e efeitos relevantes na população e nos serviços de saúde.
-Essas doenças são transmitidas principalmente pelo mosquito Aedes aegypti, tendo as suas condições de proliferação favorecidas por fatores ambientais, como o acúmulo de água parada e a falta de saneamento básico.
+Contexto
 
-Objetivos:
+As arboviroses urbanas — especialmente dengue, chikungunya e zika — representam um sério desafio para a saúde pública no Brasil, com altos níveis de ocorrência, episódios recorrentes e impactos relevantes tanto para a população quanto para os serviços de saúde.
 
-Este projeto visa utilizar análise de dados exploratória (EDA) para identificar padrões, tendências e áreas críticas relacionadas a essas doenças, com foco em Recife (2024). A análise pretende:
+Essas doenças são transmitidas principalmente pelo mosquito *Aedes aegypti*, cuja proliferação é favorecida por fatores como o acúmulo de água parada, infraestrutura precária e a falta de saneamento básico.
+
+Objetivos
+
+Este projeto tem como finalidade realizar uma Análise Exploratória de Dados (EDA) sobre os casos registrados de arboviroses no município de Recife, em 2024 com os seguintes objetivos:
 
 Traçar o perfil das populações mais afetadas.
+Analisar a sazonalidade e distribuição geográfica.
+Avaliar a mortalidade e os impactos demográficos.
+Facilitar a visualização e comunicação dos dados por meio de gráficos e tabelas interativas.
 
-Analisar sazonalidade e distribuição geográfica.
+Fonte de Dados
 
-Avaliar mortalidade e impactos demográficos.
+Os dados utilizados neste projeto são públicos, estruturados e disponibilizados pela [Prefeitura do Recife](http://dados.recife.pe.gov.br/ro/dataset/casos-de-dengue-zika-e-chikungunya):
 
-Auxiliar na visualização e comunicação dos dados via gráficos e tabelas.
+Datasets
 
-Fonte de dados:
+- **Dengue**  
+  [Download CSV](http://dados.recife.pe.gov.br/dataset/2a9b1c39-0700-4ddf-9a10-b3c8d5d9396c/resource/ae10db21-511e-4295-a027-05af48adf13a/download/dengon-2024.csv)  
+  [Espelho (Google Sheets)](https://docs.google.com/spreadsheets/d/11HHFG05XzBKzrzrHoC1PgJciDUQuCXzsH29v82K3uL8/edit?usp=sharing)
 
-Site com as fontes de dados escolhidas:
+- **Zika**  
+  [Download CSV](http://dados.recife.pe.gov.br/dataset/2a9b1c39-0700-4ddf-9a10-b3c8d5d9396c/resource/5597d197-b6c8-46af-bad5-473c9f6b3755/download/zika-2024.csv)  
+  [Espelho (Google Sheets)](https://docs.google.com/spreadsheets/d/1QzunflQAZK0rI-kN4F9zXLLZKWREuJ1T3GlXWVQ6M3A/edit?usp=sharing)
 
-As fontes de dados escolhidas são dados públicos estruturados através de datasets alimentados e compartilhados referente 
-aos casos de Dengue, Zika Virus e Chikungunya no ano de 2024 disponíveis no site da prefeitura de Recife (http://dados.recife.pe.gov.br/ro/dataset/casos-de-dengue-zika-e-chikungunya)
+- **Chikungunya**  
+  [Download CSV](http://dados.recife.pe.gov.br/dataset/2a9b1c39-0700-4ddf-9a10-b3c8d5d9396c/resource/f6e2e17d-63cd-4998-8bc0-9c19df5b996e/download/chikon-2024.csv)  
+  [Espelho (Google Sheets)](https://docs.google.com/spreadsheets/d/1FoQn4MFsUAZlSN33Vf8N71TkTxAkLP8df4THfOCIdnU/edit?usp=sharing)
 
-Datasets:
+Tecnologias Utilizadas
 
-Dengue
+- **Linguagem:** Python 3  
+- **Ambiente:** Google Colab
 
-Link: http://dados.recife.pe.gov.br/dataset/2a9b1c39-0700-4ddf-9a10-b3c8d5d9396c/resource/ae10db21-511e-4295-a027-05af48adf13a/download/dengon-2024.csv
+Bibliotecas Principais
 
-Tipo de dados:  Estruturados (CSV) 
+- pandas, numpy — Manipulação e análise de dados
+- rapidfuzz — Fuzzy matching para padronização de nomes
+- unidecode — Normalização de textos acentuados
 
-Método de acesso: Download direto
+Metodologia
 
-Opcional (caso a url não esteja funcionando): https://docs.google.com/spreadsheets/d/11HHFG05XzBKzrzrHoC1PgJciDUQuCXzsH29v82K3uL8/edit?usp=sharing
+-Limpeza e Pré-processamento
 
-Zika
+- Remoção de registros nulos ou inconsistentes
+- Padronização de datas e nomes
+- Normalização de categorias textuais
+- Ajustes em codificações, delimitadores e colunas divergentes
 
-Link: http://dados.recife.pe.gov.br/dataset/2a9b1c39-0700-4ddf-9a10-b3c8d5d9396c/resource/5597d197-b6c8-46af-bad5-473c9f6b3755/download/zika-2024.csv
+-Análise Descritiva
 
-Tipo de dados:  Estruturados (CSV) 
+- Distribuição dos casos por:
+  - Gênero
+  - Faixa etária
+  - Tipo de arbovirose
+  - Bairro ou distrito sanitário
+  - Mês de notificação
+  - Contagem de casos confirmados, descartados e ignorados
+  - Sazonalidade mês a mês
 
-Método de acesso: Download direto
+-Correlação e Padrões
 
-Opcional (caso a url não esteja funcionando): https://docs.google.com/spreadsheets/d/1QzunflQAZK0rI-kN4F9zXLLZKWREuJ1T3GlXWVQ6M3A/edit?usp=sharing
+- Relação entre perfil demográfico e tipo de doença
+- Comparações entre arboviroses quanto a idade, sexo e localização
+- Cálculo de correlações estatísticas de idade
+- Identificação de padrões espaciais e temporais
 
-Chikungunya
-
-Link: http://dados.recife.pe.gov.br/dataset/2a9b1c39-0700-4ddf-9a10-b3c8d5d9396c/resource/f6e2e17d-63cd-4998-8bc0-9c19df5b996e/download/chikon-2024.csv
-
-Tipo de dados:  Estruturados (CSV) 
-
-Método de acesso: Download direto
-
-Opcional (caso a url não esteja funcionando): https://docs.google.com/spreadsheets/d/1FoQn4MFsUAZlSN33Vf8N71TkTxAkLP8df4THfOCIdnU/edit?usp=sharing
-
-Tecnologias escolhidas
-
-Linguagem: Python 3
-
-Ambiente: Google Colab
-
-Bibliotecas:
-
-pandas, numpy: manipulação de dados
-
-rapidfuzz: tratamento de nomes via fuzzy matching
-
-unidecode: normalização de texto
-
-Metodologia:
-
-Limpeza e Pré-processamento dos Dados
-
-Remoção de registros nulos ou inconsistentes.
-
-Padronização de formatos de datas e nomes.
-
-Conversão e normalização de categorias textuais.
-
-Ajuste de codificações, delimitadores e colunas divergentes entre datasets.
-
-Análise Descritiva
-
-Análise de distribuição de casos por:
-
-Gênero
-
-Faixa etária
-
-Tipo de arbovirose
-
-Bairro ou distrito sanitário
-
-Mês de notificação
-
-Contagem de casos confirmados, descartados, ignorados.
-
-Visualização de sazonalidade ao longo dos meses.
-
-Identificação de Variáveis Importantes e Correlações
-
-Verificação de relações entre variáveis demográficas e desfecho da doença.
-
-Comparações entre arboviroses quanto a idade, sexo e localização.
-
-Cálculo de correlações (quando aplicável) para identificar fatores relevantes.
-
-Exploração de possíveis padrões geográficos e temporais.
