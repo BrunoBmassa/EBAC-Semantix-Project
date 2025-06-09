@@ -1,0 +1,28 @@
+Limpeza e Pré-processamento dos Dados
+  - Remoção de registros nulos ou inconsistentes
+  - Padronização de datas e nomes
+  - Normalização de categorias textuais
+  - Ajustes em codificações, delimitadores e colunas divergentes
+
+Identificação de Variáveis Importantes e Correlações
+  -Análise Descritiva
+
+Verificação de relações entre variáveis demográficas e tipo da doença.
+  - Distribuição dos casos por:
+  - Gênero
+  - Faixa etária
+  - Tipo de arbovirose
+  - Bairro ou distrito sanitário
+  - Mês de notificação
+  - Contagem de casos confirmados, descartados e ignorados
+  - Sazonalidade mês a mês
+
+Comparações entre arboviroses quanto a idade, sexo e localização.
+-Correlação e Padrões
+
+Cálculo de correlações quando necessário para identificar fatores relevantes.
+- Relação entre perfil demográfico e tipo de doença
+- Comparações entre arboviroses quanto a idade, sexo e localização
+- Cálculo de correlações estatísticas de idade
+- Identificação de padrões espaciais e temporais
+
