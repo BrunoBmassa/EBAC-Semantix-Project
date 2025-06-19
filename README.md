@@ -28,3 +28,11 @@ Analisar sazonalidade e distribuição geográfica.
 Avaliar mortalidade e impactos demográficos.
 
 Auxiliar na visualização e comunicação dos dados via gráficos e tabelas.
+
+Como executar:
+
+git clone https://github.com/BrunoBmassa/Projeto_Semantix_Ebac.git
+cd Projeto_Semantix_Ebac
+
+Abra o notebook com Jupyter:
+jupyter notebook analise_semantix.ipynb
