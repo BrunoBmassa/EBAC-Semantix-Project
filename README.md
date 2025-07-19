@@ -41,7 +41,7 @@ Public Health Datasets (Recife, 2024)
 
 EBAC-Semantix-Project
   ├── ProjetoArbovirosesRecife2024.ipynb                # Main analysis notebook
-  ├── Projeto_EBAC_Semantix_Arboviroses_2024_Final.pdf  # Final report
+  ├── EBAC_Semantix_Arboviruses_2024_EN.pdf             # Final report
   ├── Project-Links                                     # External resources and references
   └── README.md                                         # Project documentation
   
@@ -59,7 +59,7 @@ Final Report
 
 The project report is available as a PDF:
 
-Projeto_EBAC_Semantix_Arboviroses_2024_Final.pdf
+EBAC_Semantix_Arboviruses_2024_EN.pdf
 
 ### 🌐 Interactive Dashboard
 
