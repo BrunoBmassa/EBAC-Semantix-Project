@@ -1,12 +1,12 @@
 
 
-## Arboviruses Analysis – Recife 2024
+# Arboviruses Analysis – Recife 2024
 Project developed for the Data Analyst course by EBAC in partnership with SEMANTIX
 
-# About the Project
+## About the Project
 This project was created as part of the final challenge of the EBAC Data Analyst Professional course, in collaboration with Semantix. The goal was to identify a real-world issue that could be addressed through data analysis and develop a complete end-to-end solution.
 
-# Objective
+## Objective
 To analyze the occurrence of urban arboviruses (mainly dengue, zika, and chikungunya) in the city of Recife during the year 2024, using exploratory data analysis (EDA) to identify:
 
 The demographic profile of the most affected populations
@@ -17,7 +17,7 @@ Mortality and demographic impacts
 
 Data visualizations to support public health decision-making
 
-# Why This Topic?
+## Why This Topic?
 Arboviruses transmitted by the Aedes aegypti mosquito remain a significant public health issue in Brazil, especially in urban centers like Recife. With recurring outbreaks and health system impacts, data-driven strategies are essential to:
 
 Understand the dynamics of disease spread
@@ -35,7 +35,7 @@ Jupyter Notebook
 
 Public Health Datasets (Recife, 2024)
 
- Repository Contents
+## Repository Contents
 
 Projeto_Semantix_Ebac
   ├── ProjetoArbovirosesRecife2024.ipynb     # Main analysis notebook
@@ -51,6 +51,13 @@ cd Projeto_Semantix_Ebac
 Open the notebook with Jupyter:
 
 jupyter notebook ProjetoArbovirosesRecife2024.ipynb
+
+
+Final Report
+
+The project report is available as a PDF:
+
+Projeto_EBAC_Semantix_Arboviroses_2024_Final.pdf
 
 ## Author
 
