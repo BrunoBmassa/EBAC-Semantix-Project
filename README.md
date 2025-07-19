@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="capa-projeto.png" alt="Capa do Projeto - Análise de Arboviroses" width="600">
+  <img src="capa_projeto.png" alt="Capa do Projeto - Análise de Arboviroses" width="600">
 </p>
 
 # Arboviruses Analysis – Recife 2024
