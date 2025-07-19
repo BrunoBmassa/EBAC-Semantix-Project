@@ -39,11 +39,11 @@ Public Health Datasets (Recife, 2024)
 
 ## Repository Contents
 
-Projeto_Semantix_Ebac
-  ├── ProjetoArbovirosesRecife2024.ipynb     # Main analysis notebook
+EBAC-Semantix-Project
+  ├── ProjetoArbovirosesRecife2024.ipynb                # Main analysis notebook
   ├── Projeto_EBAC_Semantix_Arboviroses_2024_Final.pdf  # Final report
-  ├── Links Projeto/                         # External resources and references
-  └── README.md                              # Project documentation
+  ├── Project-Links                                     # External resources and references
+  └── README.md                                         # Project documentation
   
 ## How to Run
 Clone the repository:
