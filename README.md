@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="capa-projeto.png" alt="Capa do Projeto - Análise de Arboviroses" width="600">
+</p>
 
 # Arboviruses Analysis – Recife 2024
 Project developed for the Data Analyst course by EBAC in partnership with SEMANTIX
@@ -58,6 +60,17 @@ Final Report
 The project report is available as a PDF:
 
 Projeto_EBAC_Semantix_Arboviroses_2024_Final.pdf
+
+### 🌐 Interactive Dashboard
+
+Explore the complete arboviruses analysis for Recife (2024) with dynamic charts on Looker Studio:
+
+<p align="center">
+  <a href="https://lookerstudio.google.com/s/nK-oFLv3x-I" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Google_Data_Studio_Logo.svg/600px-Google_Data_Studio_Logo.svg.png" alt="Looker Studio Dashboard" width="150"><br>
+    <strong>➡️ View Interactive Dashboard</strong>
+  </a>
+</p>
 
 ## Author
 
