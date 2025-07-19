@@ -67,7 +67,7 @@ Explore the complete arboviruses analysis for Recife (2024) with dynamic charts 
 
 <p align="center">
   <a href="https://lookerstudio.google.com/s/nK-oFLv3x-I" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Google_Data_Studio_Logo.svg/600px-Google_Data_Studio_Logo.svg.png" alt="Looker Studio Dashboard" width="150"><br>
+    <img src="looker_logo.png" alt="Looker Studio Dashboard" width="150"><br>
     <strong>➡️ View Interactive Dashboard</strong>
   </a>
 </p>
