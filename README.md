@@ -71,6 +71,14 @@ Explore the complete arboviruses analysis for Recife (2024) with dynamic charts 
   </a>
 </p>
 
+---
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
 ## Author
 
 Bruno Brehmer Massaneiro
